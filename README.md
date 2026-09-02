@@ -31,8 +31,24 @@ The historical branches contained separate acquisition, text, image and dashboar
 | [03 — Image quality](notebooks/03_image_quality.ipynb) | Which visual metadata can support content analysis? | image features, quality checks, responsible use |
 | [04 — Multimodal synthesis](notebooks/04_multimodal_synthesis.ipynb) | How can text and image evidence be combined? | entity-level joins, aggregation, product storytelling |
 | [End-to-end demo](notebooks/restaurant_insights.ipynb) | How does the complete offline workflow run? | reproducible synthetic example |
+| [Historical research results](notebooks/05_historical_research.ipynb) | What was actually analysed in the original project? | corpus scale, LDA search, computer-vision pipeline |
 
 The gallery consolidates the useful work from `master`, `dev` and `main`. Raw notebooks, API modules, cached resources and credentials are intentionally excluded.
+
+## Historical research evidence
+
+The original executed notebooks demonstrate substantially more than the offline demo:
+
+- **200,100 image records**, covering 36,680 businesses and five classes;
+- class distribution: 108,152 food, 56,031 inside, 18,569 outside, 15,670 drink and 1,678 menu images;
+- a balanced working sample of **1,000 images** (200 per class), split into 800 training and 200 test images;
+- SIFT descriptors, a VGG16 transfer-learning pipeline, PCA, t-SNE, MiniBatchKMeans and adjusted Rand evaluation;
+- **1,680 LDA configurations** evaluated over topic count, alpha, beta and corpus fraction;
+- best recorded LDA configuration: **22 topics**, alpha **0.61**, beta **0.01**, coherence **0.5572**.
+
+![Historical Yelp photo distribution](docs/assets/yelp-photo-distribution.svg)
+
+See the [complete notebook inventory](docs/experiment_inventory.md) for provenance and limitations. These figures are preserved historical outputs; the public demo remains offline and credential-free.
 
 ## Security design
 
