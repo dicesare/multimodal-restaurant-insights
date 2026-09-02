@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470" role="img" aria-labelledby="title desc">
+ <title id="title">Yelp photo-label distribution</title><desc id="desc">Horizontal bars show historical counts for five image labels.</desc>
+ <rect width="960" height="470" fill="#101827"/><text x="45" y="48" fill="#f8fafc" font-family="Arial" font-size="26" font-weight="700">200,100 Yelp photos analysed</text><text x="45" y="75" fill="#94a3b8" font-family="Arial" font-size="14">Historical metadata distribution before balanced sampling</text>
+ <g font-family="Arial" font-size="15" fill="#cbd5e1"><text x="45" y="135">food</text><text x="45" y="205">inside</text><text x="45" y="275">outside</text><text x="45" y="345">drink</text><text x="45" y="415">menu</text></g>
+ <g fill="#1e293b"><rect x="125" y="112" width="700" height="26" rx="5"/><rect x="125" y="182" width="700" height="26" rx="5"/><rect x="125" y="252" width="700" height="26" rx="5"/><rect x="125" y="322" width="700" height="26" rx="5"/><rect x="125" y="392" width="700" height="26" rx="5"/></g>
+ <g fill="#34d399"><rect x="125" y="112" width="700" height="26" rx="5"/><rect x="125" y="182" width="363" height="26" rx="5"/><rect x="125" y="252" width="120" height="26" rx="5"/><rect x="125" y="322" width="101" height="26" rx="5"/><rect x="125" y="392" width="11" height="26" rx="5"/></g>
+ <g font-family="Arial" font-size="14" fill="#f8fafc"><text x="838" y="131">108,152 · 54.05%</text><text x="500" y="201">56,031 · 28.00%</text><text x="257" y="271">18,569 · 9.28%</text><text x="238" y="341">15,670 · 7.83%</text><text x="148" y="411">1,678 · 0.84%</text></g>
+</svg>
+
